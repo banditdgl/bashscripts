@@ -1,5 +1,5 @@
 #!/bin/bash
-#lockal variables
+#local variables
 
 AGE=27
 HELLO="Hello"
