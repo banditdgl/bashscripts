@@ -21,3 +21,5 @@ echo -e "ALL array elements: \n"${TABLE[@]}
 
 echo ${#TABLE[3]}
 echo ${#TABLE[@]}
+
+
