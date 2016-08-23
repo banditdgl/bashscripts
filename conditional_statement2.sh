@@ -66,3 +66,31 @@ else
 
 	echo "not copied"
 fi
+
+NUMBER=10
+
+if [ "$NUMBER" -ge "0" ] && [ "$NUMBER" -le "10" ]
+then
+	echo "$NUMBER is between <0;10>"
+else
+	echo "$NUMBER is not between <0;10>"
+fi
+
+if [ "$NUMBER" -lt "10" ] || [ "$NUMBER" -gt "20" ]
+then
+	echo "$NUMBER is not between: <10; 20>"
+else
+	echo "$NUMBER is between: <10; 20>"
+fi
+
+
+
+
+
+
+
+
+
+
+
+
