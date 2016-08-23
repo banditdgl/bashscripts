@@ -1,5 +1,29 @@
 #!/bin/bash
 
+NUMBER_OF_ARGUMENTS="$#"
+
+if [ "$NUMBER_OF_ARGUMENTS" = 0 ]
+then
+	echo "You give 0 arguments"
+elif [ "$NUMBER_OF_ARGUMENTS" = "1" ]
+then
+	echo "You give 1 argument: $1"
+elif [ "$NUMBER_OF_ARGUMENTS" = "2" ]
+then
+	echo "You give 2 arguments: $1 and $2"
+elif [ "$NUMBER_OF_ARGUMENTS" = "3" ]
+then
+	echo "You give 3 arguments: $1 $2 and $3"
+else
+	echo "You give more than 3 arguments"
+fi
+
+echo "Logical arguments: "
+echo "! Negacja"
+echo "|| OR"
+echo "&& AND"
+
+
 if [ "$#" -gt 2 ]
 then
 	echo "to much arguments"
